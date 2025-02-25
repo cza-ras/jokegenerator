@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Generator żartów</title>
+</head>
+<body bgcolor="lightgray">
+    <table align="center" bgcolor="#DFEFFC">
+    <tr>
+        <td><img src="/static/applogo.png" width="250px" height="250px"></td>
+        <td>
+        <table>
+            <tr>
+                <td><h1 color="white">Wygeneruj krótki żart z AI</h1></td>
+            </tr>
+            <tr>
+                <td>
+                <form action="/makejoke" method="post" enctype="multipart/form-data">
+                <input type="text" name="input_text" placeholder="Podaj temat do żartów..."  size="50" required>
+                </td>
+            </tr>
+            <tr>
+                <td><br><button type="submit">Opowiedz żart!</button></td>
+                </form>
+            </tr>
+        </table>
+        </td>
+    </tr>
+    </table>
+</body>
+</html>
